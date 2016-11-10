@@ -42,7 +42,7 @@ with open('ingredients.txt', 'r') as infile:
     ingredients_list = infile.read().splitlines()
 
 # Loop that creates dummy products and writes them on the database server
-while count_products < 10:
+while count_products < 100:
 
     # Variables that take a random item from the lists
     title = random.choice(title_list)
